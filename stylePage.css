@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Tajawal');
+
+
+*{
+  margin: 0;
+}
+nav {
+  margin: 1%;
+   
+}
+ul{
+  overflow: auto;
+  list-style-type: none;
+}
+li{
+  height: 25px;
+  float: left;
+  margin-right:0px;
+  border-right: 1px solid #aaa;
+  padding: 2%;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  text-decoration:none;
+  color: #9d2323;
+  font: 21px/1 helvetica, vendana, sabs-serif;
+  color: #666;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+body {
+  height:70%;
+  margin:0;
+  font-family: "helvetica", sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+  justify: center;
+}
+
+h3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+  margin: 1%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+    justify: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.0em; 
+  margin-top:5.0px;
+  width:100%;
+  background-color:green;
+  height:25%;
+}
+
+.leftColumn {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 0.7em;
+  width:50%;
+  float: left;
+  background-color:white;
+}
+.rightColumn {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 0.7em;  
+  width:50%;
+  float: right;
+  background-color:white;
+}
+
+.main {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 0.5em;  
+  width:100%;
+  height:500px;
+  background-color:white;
+}
+
+.text {
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  height:100vh;
+  background-color: white;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.footer{
+  margin:0;
+  width:100%;
+  background-color:green;
+}
+
+.parent {
+  overflow: auto;
+}
+
+.parent div {
+  float: left;
+  width: 50%;
+
+}
